@@ -1,0 +1,21 @@
+{
+  "name": "station-five-api-test",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.4.13",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node build/server.js",
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "lint": "tsc --noemit",
+    "build": "tsc --project ./"
+  }
+}
