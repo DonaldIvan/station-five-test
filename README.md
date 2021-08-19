@@ -8,7 +8,7 @@ For first time set up
 
 For second time and so on
 
-- npm run ui-start or yarn ui-start
+- npm run start-ui or yarn start-ui
 
 For Testing UI please use http://localhost:3000
 
@@ -20,6 +20,6 @@ For first time set up
 
 For second time and so on
 
-- npm run api-start or yarn api-start
+- npm run start-api or yarn start-api
 
 For Testing API please use http://localhost:8001/message

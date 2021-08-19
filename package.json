@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "install-start-ui": "cd frontend && yarn install && yarn start",
-    "ui-start": "cd frontend && yarn start",
+    "start-ui": "cd frontend && yarn start",
     "install-start-api": "cd backend && yarn install && yarn dev",
-    "api-start": "cd backend && yarn dev"
+    "start-api": "cd backend && yarn dev"
   }
 }
